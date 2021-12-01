@@ -5,11 +5,15 @@ import java.sql.DriverManager;
 import java.sql.Connection;
 
 public class DBConnectionUtils {
-	//private static String url = "jdbc:mysql://node236041-nam-bsongs.j.layershift.co.uk/bsong?useUnicode=true&characterEncoding=UTF-8";
-		private static String url = "jdbc:mysql://localhost:3306/fts";
-		private static String user = "root";
-		private static String password = "";
-		//private static String password = "ISFbci95222";
+
+// 		private static String url = "jdbc:mysql://remotemysql.com:3306/fts";
+// 		private static String user = "root";
+// 		private static String password = "";
+	
+		private static String url = "jdbc:mysql://localhost:3306/QQETrxg9Za";
+		private static String user = "QQETrxg9Za";
+		private static String password = "njmySgZQPE";
+
 		private static Connection conn = null;
 		
 		public static Connection getConnection() {
